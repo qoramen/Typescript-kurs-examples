@@ -35,12 +35,12 @@ userId = 456; // OK
 
 type Ruxsat = "oqish" | "yozish" | "ochirish";
 
-function tekshir(action: Ruxsat) {
+function tekshir1(action: Ruxsat) {
     console.log(`Sizga ${action} ruxsati bor`);
 }
 
-tekshir("oqish");    // ✅ OK
-tekshir("ochirish"); // ✅ OK
+tekshir1("oqish");    // ✅ OK
+tekshir1("ochirish"); // ✅ OK
 // tekshir("kiritish"); ❌ Xato
 
 
@@ -116,7 +116,7 @@ type ButtonProps =
     | { variant: "link"; href: string }
     | { variant: "submit"; onClick: () => void };
 
-function Button(props: ButtonProps) {
+function Button1(props: ButtonProps) {
     if (props.variant === "link") {
         // return <a href={ props.href }> Havola </a>;
     }
