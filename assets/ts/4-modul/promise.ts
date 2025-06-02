@@ -78,10 +78,10 @@ function getData(): Promise<any> {
 
 // --- Xulosa ---
 /*
-| Qanday?           | Nima beradi?                            |
-| ----------------- | --------------------------------------- |
-| `Promise<T>`      | Va’da `T` turidagi qiymat qaytaradi     |
-| `fetchData<T>()`  | Generic bilan har tur uchun moslashadi  |
+| Qanday?            | Nima beradi?                            |
+| -----------------  | --------------------------------------- |
+| `Promise<T>`       | Va’da `T` turidagi qiymat qaytaradi     |
+| `fetchData<T>()`   | Generic bilan har tur uchun moslashadi  |
 | `Promise<any>` ❌  | Xavfsizlik yo‘qoladi, tavsiya etilmaydi |
 | `Promise<User>` ✅ | Type xavfsiz, avtomatik yordam beradi   |
 */
